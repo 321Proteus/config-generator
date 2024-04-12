@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+}
+
+#settings {
+    position: fixed;
+    top: 0;
+    padding: 50px;
+
+    width: 100%;
+    height: 70%;
+    background-color: rgb(178, 255, 255);
+}
+
+#output-text {
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    height: 30%;    
+    background-color: #222;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.define {
+    color: rgb(0, 122, 122);
+}
+
+.name {
+    color: #ddd;
+}
+
+.value {
+    color: #888;
+}
+
+#copy {
+	position: absolute;    
+    right: 0;
+   	margin: 10px;
+	height: 32px;
+	display: flex;
+
+    border: none;
+	background-color: rgba(255,255,255,0.6);
+	padding: 25px;
+	border-radius: 12px;
+
+	align-items: center;
+	font-size: 18px;
+}
+
+#copy:hover {
+    scale: 0.85;
+    background-color: rgba(255,255,255,0.5);
+    transition: scale 0.2s;
+}
